@@ -11,8 +11,8 @@ except ImportError:
     from pip.req           import parse_requirements # pip 9
 
 # globals
-PROJECT_DIRNAME = "pipupgrade"
-COMMAND_NAME    = "pipupgrade"
+PROJECT_DIRNAME = "bootstrap_scoped"
+COMMAND_NAME    = "bscope"
 ENVIRONMENT     = "production" if sys.argv[1] == "install" else "development"
 
 def isdef(var):

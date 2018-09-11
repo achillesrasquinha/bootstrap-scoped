@@ -1,23 +1,23 @@
 <div align="center">
     <img src=".github/assets/meme.jpg" width="250">
     <h1>
-        pipupgrade
+        Bootstrap Scoped
     </h1>
-    <h4>The missing command for <code>pip</code></h4>
+    <h4>Scope your Bootstrap assets in a jiffy!</h4>
 </div>
 
 <p align="center">
-    <a href="https://travis-ci.org/achillesrasquinha/pipupgrade">
-        <img src="https://img.shields.io/travis/achillesrasquinha/pipupgrade.svg?style=flat-square">
+    <a href="https://travis-ci.org/achillesrasquinha/bootstrap-scoped">
+        <img src="https://img.shields.io/travis/achillesrasquinha/bootstrap-scoped.svg?style=flat-square">
     </a>
-    <a href="https://coveralls.io/github/achillesrasquinha/pipupgrade">
-        <img src="https://img.shields.io/coveralls/github/achillesrasquinha/pipupgrade.svg?style=flat-square">
+    <a href="https://coveralls.io/github/achillesrasquinha/bootstrap-scoped">
+        <img src="https://img.shields.io/coveralls/github/achillesrasquinha/bootstrap-scoped.svg?style=flat-square">
     </a>
-    <a href="https://pypi.org/project/pipupgrade/">
-		<img src="https://img.shields.io/pypi/v/pipupgrade.svg?style=flat-square">
+    <a href="https://pypi.org/project/bootstrap-scoped/">
+		<img src="https://img.shields.io/pypi/v/bootstrap-scoped.svg?style=flat-square">
 	</a>
-    <a href="https://pypi.org/project/pipupgrade/">
-		<img src="https://img.shields.io/pypi/l/pipupgrade.svg?style=flat-square">
+    <a href="https://pypi.org/project/bootstrap-scoped/">
+		<img src="https://img.shields.io/pypi/l/bootstrap-scoped.svg?style=flat-square">
 	</a>
 	<a href="https://saythanks.io/to/achillesrasquinha">
 		<img src="https://img.shields.io/badge/Say%20Thanks-🦉-1EAEDB.svg?style=flat-square">
@@ -35,7 +35,7 @@
 #### Installation
 
 ```shell
-$ pip install pipupgrade
+$ pip install bootstrap-scoped
 ```
 
 ### Usage
@@ -45,28 +45,19 @@ $ pip install pipupgrade
 </div>
 
 ```
-$ pipupgrade
-Do you wish to update 200 packages? [Y/n]: Y
-Updating 1 of 200: pipupgrade
-...
-UPGRADED ALL THE PIP PACKAGES!
+$ bscope
+Cloning https://github.com/twbs/bootstrap...
+Cloned.
+Checking out from v4.1.3-87-g6e2a823...
+Using scope name: .bootstrap-scope
+Generating template...
+Writing to bootstrap-scoped-6e2a823.gzip
 ```
 
 That's basically it! Run the help for more details...
 
 ```
-$ pipupgrade --help
-usage: pipupgrade [-h] [-y] [-c] [--no-color] [-V] [-v]
-
-UPGRADE ALL THE PIP PACKAGES!
-
-optional arguments:
-  -h, --help     show this help message and exit
-  -y, --yes      Confirm for all dialogs
-  -c, --check    Check for outdated packages
-  --no-color     Avoid colored output
-  -V, --verbose  Display verbose output
-  -v, --version  show program's version number and exit
+$ bscope --help
 ```
 
 ### License
