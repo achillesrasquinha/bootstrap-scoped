@@ -1,5 +1,4 @@
 <div align="center">
-    <img src=".github/assets/meme.jpg" width="250">
     <h1>
         Bootstrap Scoped
     </h1>
@@ -39,10 +38,6 @@ $ pip install bootstrap-scoped
 ```
 
 ### Usage
-
-<div align="center">
-    <img src=".github/assets/demo.gif">
-</div>
 
 ```
 $ bscope
